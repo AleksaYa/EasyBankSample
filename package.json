@@ -2,7 +2,8 @@
   "name": "easybank",
   "version": "1.0.0",
   "scripts": {
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Oleksandra Yakovenko",
   "license": "ISC",
