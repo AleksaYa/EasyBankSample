@@ -2,6 +2,7 @@
   "name": "easybank",
   "version": "1.0.0",
   "scripts": {
+    "start": "parcel watch ./src/index.html --no-hmr & live-server --port=8000 ./dist/",
     "build": "parcel build --public-url '.' src/index.html",
     "deploy": "gh-pages -d dist"
   },
@@ -11,6 +12,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
     "gh-pages": "^3.2.3",
+    "live-server": "^1.2.1",
     "parcel": "^2.0.1"
   }
 }
