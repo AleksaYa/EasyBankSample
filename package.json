@@ -1,0 +1,14 @@
+{
+  "name": "easybank",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build src/index.html"
+  },
+  "author": "Oleksandra Yakovenko",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  }
+}
